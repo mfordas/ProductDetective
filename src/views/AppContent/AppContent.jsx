@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react';
 
+import Menu from '../../components/Menu';
 import '../../styling/main_styling.scss'
 
 
 const AppContent = () => {
     return (
         <div className="AppContainer">
-            <div>Setup for allergen app</div>
-            </div>
+            <Menu />
+            <div className="mainWindow"></div>
+            <div className="footer">Footer</div>
+        </div>
     );
 }
 
