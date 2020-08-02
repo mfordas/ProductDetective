@@ -52,7 +52,10 @@ link {
     flex-grow: 2;
     width: 100%;
     text-align: center;
-    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .menuContainer {
@@ -69,4 +72,11 @@ link {
     position: absolute;
     transition: all .2s;
     border-bottom: 2px solid #E3E348;
+    z-index: -1;
+}
+
+#video {
+    border: 2px solid red;
+    width: 90%;
+    height: 90%;
 }
