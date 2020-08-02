@@ -31,10 +31,10 @@ const ProductScannerContent = () => {
             .decodeOnceFromVideoDevice(undefined, 'video')
             .then(result => {
                 setBarcode(result.text);
-                setCount(counter++)
+                setCount(counter+1)
             })
             .catch(err => setError(`${err}`));
-    }, [barcode, counter]);
+    });
 
     return (
         <div className='mainWindow'>
