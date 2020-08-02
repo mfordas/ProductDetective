@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1de756bc82306e378cd62db45a86d515",
+    "revision": "5af81b18844f2b211b2c7cdc63b9106e",
     "url": "/AllergenDetective/index.html"
   },
   {
-    "revision": "7d0fd622ca118c7b601f",
+    "revision": "d872f77710087511b629",
     "url": "/AllergenDetective/static/css/main.7a5334a5.chunk.css"
   },
   {
-    "revision": "0115fc54a83b101f1fd5",
-    "url": "/AllergenDetective/static/js/2.43fd28fb.chunk.js"
+    "revision": "f0d1fdf17db8ef79b849",
+    "url": "/AllergenDetective/static/js/2.2aae92f3.chunk.js"
   },
   {
     "revision": "24b8054ddc1445462862104fe5fc876e",
-    "url": "/AllergenDetective/static/js/2.43fd28fb.chunk.js.LICENSE.txt"
+    "url": "/AllergenDetective/static/js/2.2aae92f3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7d0fd622ca118c7b601f",
-    "url": "/AllergenDetective/static/js/main.095df576.chunk.js"
+    "revision": "d872f77710087511b629",
+    "url": "/AllergenDetective/static/js/main.725c0e66.chunk.js"
   },
   {
     "revision": "3cf9196692cb535f10b0",
