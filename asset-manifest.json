@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.2de99f7e.chunk.css",
-    "main.js": "/static/js/main.095df576.chunk.js",
-    "main.js.map": "/static/js/main.095df576.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.159dd4f5.js",
-    "runtime-main.js.map": "/static/js/runtime-main.159dd4f5.js.map",
-    "static/js/2.43fd28fb.chunk.js": "/static/js/2.43fd28fb.chunk.js",
-    "static/js/2.43fd28fb.chunk.js.map": "/static/js/2.43fd28fb.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.30c0afa5b957719222fd34006e7f54d1.js": "/precache-manifest.30c0afa5b957719222fd34006e7f54d1.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.2de99f7e.chunk.css.map": "/static/css/main.2de99f7e.chunk.css.map",
-    "static/js/2.43fd28fb.chunk.js.LICENSE.txt": "/static/js/2.43fd28fb.chunk.js.LICENSE.txt",
-    "static/media/main_styling.scss": "/static/media/MarkaziText-VariableFont_wght.c06d50f7.ttf"
+    "main.css": "/AllergenDetective/static/css/main.7a5334a5.chunk.css",
+    "main.js": "/AllergenDetective/static/js/main.095df576.chunk.js",
+    "main.js.map": "/AllergenDetective/static/js/main.095df576.chunk.js.map",
+    "runtime-main.js": "/AllergenDetective/static/js/runtime-main.3f3815f3.js",
+    "runtime-main.js.map": "/AllergenDetective/static/js/runtime-main.3f3815f3.js.map",
+    "static/js/2.43fd28fb.chunk.js": "/AllergenDetective/static/js/2.43fd28fb.chunk.js",
+    "static/js/2.43fd28fb.chunk.js.map": "/AllergenDetective/static/js/2.43fd28fb.chunk.js.map",
+    "index.html": "/AllergenDetective/index.html",
+    "precache-manifest.808330cc296b3507536e37abb2d7d67c.js": "/AllergenDetective/precache-manifest.808330cc296b3507536e37abb2d7d67c.js",
+    "service-worker.js": "/AllergenDetective/service-worker.js",
+    "static/css/main.7a5334a5.chunk.css.map": "/AllergenDetective/static/css/main.7a5334a5.chunk.css.map",
+    "static/js/2.43fd28fb.chunk.js.LICENSE.txt": "/AllergenDetective/static/js/2.43fd28fb.chunk.js.LICENSE.txt",
+    "static/media/main_styling.scss": "/AllergenDetective/static/media/MarkaziText-VariableFont_wght.c06d50f7.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.159dd4f5.js",
+    "static/js/runtime-main.3f3815f3.js",
     "static/js/2.43fd28fb.chunk.js",
-    "static/css/main.2de99f7e.chunk.css",
+    "static/css/main.7a5334a5.chunk.css",
     "static/js/main.095df576.chunk.js"
   ]
 }
