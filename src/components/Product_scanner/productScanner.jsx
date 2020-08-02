@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { BrowserBarcodeReader } from '@zxing/library';
 
+import ProductInfo from './productInfo';
 import '../../styling/main_styling.scss';
 
 const codeReader = new BrowserBarcodeReader();
 
 const ProductScannerContent = () => {
-    const [barcode, setBarcode] = useState('123456789');
+    const [barcode, setBarcode] = useState('5900242001610');
     const [inputDevicesList, setDevices] = useState([]);
     const [error, setError] = useState('error');
     const [counter, setCount] = useState(0);
@@ -43,6 +44,7 @@ const ProductScannerContent = () => {
             {inputDevicesList}
             <div>{error}</div>
             {counter}
+            <ProductInfo barcode={barcode} />
         </div>
     );
 }
