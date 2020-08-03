@@ -9,8 +9,6 @@ const codeReader = new BrowserBarcodeReader();
 const ProductScannerContent = () => {
     const [barcode, setBarcode] = useState('5900242001610');
     const [inputDevicesList, setDevices] = useState([]);
-    const [error, setError] = useState('error');
-    const [counter, setCount] = useState(0);
 
     useEffect(() => {
        const collectingListOfDevices = async () => {
@@ -21,7 +19,7 @@ const ProductScannerContent = () => {
                     console.log(`${device.label}, ${device.deviceId}`)
                 );
             })
-            .catch(err => setError(`${err}`));
+            .catch(err => console.error(err));
 
             return inputDevicesList;
         }
@@ -32,9 +30,8 @@ const ProductScannerContent = () => {
             .decodeOnceFromVideoDevice(undefined, 'video')
             .then(result => {
                 setBarcode(result.text);
-                setCount(counter+1)
             })
-            .catch(err => setError(`${err}`));
+            .catch(err => console.error(err));
     });
 
     return (
@@ -42,8 +39,6 @@ const ProductScannerContent = () => {
             <video id="video" width="300" height="200"></video>
             {barcode}
             {inputDevicesList}
-            <div>{error}</div>
-            {counter}
             <ProductInfo barcode={barcode} />
         </div>
     );
