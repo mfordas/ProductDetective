@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4bd3bddea77ec09dec438d1e99950ed1",
+    "revision": "3f0930681de0b23be832d67227ff8a1a",
     "url": "/AllergenDetective/index.html"
   },
   {
-    "revision": "59ed4a443173b8cd78c1",
-    "url": "/AllergenDetective/static/css/main.7a5334a5.chunk.css"
+    "revision": "ea3e7e2e87fbcdd5eb0e",
+    "url": "/AllergenDetective/static/css/main.d660b7df.chunk.css"
   },
   {
-    "revision": "6d770d38f1f4f91ef147",
-    "url": "/AllergenDetective/static/js/2.6ba8d795.chunk.js"
+    "revision": "541a18b4d5fb736c1b7a",
+    "url": "/AllergenDetective/static/js/2.d5d3ed22.chunk.js"
   },
   {
     "revision": "24b8054ddc1445462862104fe5fc876e",
-    "url": "/AllergenDetective/static/js/2.6ba8d795.chunk.js.LICENSE.txt"
+    "url": "/AllergenDetective/static/js/2.d5d3ed22.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "59ed4a443173b8cd78c1",
-    "url": "/AllergenDetective/static/js/main.a8072922.chunk.js"
+    "revision": "ea3e7e2e87fbcdd5eb0e",
+    "url": "/AllergenDetective/static/js/main.15d4e048.chunk.js"
   },
   {
     "revision": "3cf9196692cb535f10b0",

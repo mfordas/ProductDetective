@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/AllergenDetective/static/css/main.7a5334a5.chunk.css",
-    "main.js": "/AllergenDetective/static/js/main.a8072922.chunk.js",
-    "main.js.map": "/AllergenDetective/static/js/main.a8072922.chunk.js.map",
+    "main.css": "/AllergenDetective/static/css/main.d660b7df.chunk.css",
+    "main.js": "/AllergenDetective/static/js/main.15d4e048.chunk.js",
+    "main.js.map": "/AllergenDetective/static/js/main.15d4e048.chunk.js.map",
     "runtime-main.js": "/AllergenDetective/static/js/runtime-main.3f3815f3.js",
     "runtime-main.js.map": "/AllergenDetective/static/js/runtime-main.3f3815f3.js.map",
-    "static/js/2.6ba8d795.chunk.js": "/AllergenDetective/static/js/2.6ba8d795.chunk.js",
-    "static/js/2.6ba8d795.chunk.js.map": "/AllergenDetective/static/js/2.6ba8d795.chunk.js.map",
+    "static/js/2.d5d3ed22.chunk.js": "/AllergenDetective/static/js/2.d5d3ed22.chunk.js",
+    "static/js/2.d5d3ed22.chunk.js.map": "/AllergenDetective/static/js/2.d5d3ed22.chunk.js.map",
     "index.html": "/AllergenDetective/index.html",
-    "precache-manifest.76134b005bad5a480f5d7467cf175a89.js": "/AllergenDetective/precache-manifest.76134b005bad5a480f5d7467cf175a89.js",
+    "precache-manifest.55fa6c9bad0805bb0b087c4993538363.js": "/AllergenDetective/precache-manifest.55fa6c9bad0805bb0b087c4993538363.js",
     "service-worker.js": "/AllergenDetective/service-worker.js",
-    "static/css/main.7a5334a5.chunk.css.map": "/AllergenDetective/static/css/main.7a5334a5.chunk.css.map",
-    "static/js/2.6ba8d795.chunk.js.LICENSE.txt": "/AllergenDetective/static/js/2.6ba8d795.chunk.js.LICENSE.txt",
+    "static/css/main.d660b7df.chunk.css.map": "/AllergenDetective/static/css/main.d660b7df.chunk.css.map",
+    "static/js/2.d5d3ed22.chunk.js.LICENSE.txt": "/AllergenDetective/static/js/2.d5d3ed22.chunk.js.LICENSE.txt",
     "static/media/main_styling.scss": "/AllergenDetective/static/media/MarkaziText-VariableFont_wght.c06d50f7.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.3f3815f3.js",
-    "static/js/2.6ba8d795.chunk.js",
-    "static/css/main.7a5334a5.chunk.css",
-    "static/js/main.a8072922.chunk.js"
+    "static/js/2.d5d3ed22.chunk.js",
+    "static/css/main.d660b7df.chunk.css",
+    "static/js/main.15d4e048.chunk.js"
   ]
 }
