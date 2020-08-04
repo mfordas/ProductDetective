@@ -10,9 +10,10 @@ const AppContent = () => {
     return (
         <div className="AppContainer">
             <HashRouter>
-            <Menu />
+            {/* <Menu /> */}
                 <Switch>
                     <Route path="/productscanner" component={ProductScanner} />
+                    <Route path="/" component={ProductScanner} />
                     <Route render={() => <Redirect to="/" />} />
                 </Switch>
             </HashRouter>

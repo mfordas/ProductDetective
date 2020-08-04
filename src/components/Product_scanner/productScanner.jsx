@@ -38,7 +38,6 @@ const ProductScannerContent = () => {
         <div className='mainWindow'>
             <video id="video" width="300" height="200"></video>
             {barcode}
-            {inputDevicesList}
             <ProductInfo barcode={barcode} />
         </div>
     );

@@ -1,8 +1,8 @@
 {
-  "name": "allergendetective",
+  "name": "productdetective",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mfordas.github.io/AllergenDetective",
+  "homepage": "https://mfordas.github.io/ProductDetective",
   "dependencies": {
     "@tensorflow/tfjs": "^2.0.1",
     "@testing-library/jest-dom": "^4.2.4",

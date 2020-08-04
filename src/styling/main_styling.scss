@@ -75,7 +75,7 @@ link {
 }
 
 #video {
-    border: 2px solid red;
+    // border: 2px solid red;
     width: 90%;
     height: 90%;
 }
@@ -83,3 +83,17 @@ link {
 .buttonMenuContainer {
     z-index: 1;
 }
+
+.nutriscoreBar {
+    display: flex;
+    width: 100%;
+}
+
+.nutriscoreGrade {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
