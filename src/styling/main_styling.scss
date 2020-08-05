@@ -1,4 +1,6 @@
-$main-color: #087848;
+$main-color: #2a2b1e;
+$menu-color: #2a2b1e;
+$footer-color: #2a2b1e;
 
 @font-face {
     font-family: "MarkaziText";
@@ -52,14 +54,32 @@ link {
     flex-grow: 2;
     width: 100%;
     text-align: center;
-    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title, .footer {
+    background-color: $menu-color;
+    width: 100vw;
+    text-align: center;
+}
+
+.footer {
+    border-top: 2px solid #E3E348;
 }
 
 .menuContainer {
-    width: 100%;
+    width: 90vw;
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem;
+    padding: 0.1rem;
+    background-color: $menu-color;
+
+        span {
+            font-size: smaller;
+        }
 }
 
 .underline {
@@ -70,3 +90,35 @@ link {
     transition: all .2s;
     border-bottom: 2px solid #E3E348;
 }
+
+#video {
+    // border: 2px solid #E3E348;
+    width: 90%;
+    height: 90%;
+}
+
+p {
+    margin: 0.2rem;
+}
+
+.buttonMenuContainer {
+    z-index: 1;
+    text-align: center;
+}
+
+.nutriscoreBar {
+    display: flex;
+    width: 100%;
+}
+
+.nutriscoreGrade {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    background-color: grey;
+}
+
+
+
