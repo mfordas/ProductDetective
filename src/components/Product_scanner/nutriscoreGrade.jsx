@@ -5,8 +5,8 @@ const NutriscoreGrade = ({ grade, color, productGrade }) => {
     const sizeChange = () => {
         if (grade.toLowerCase() === productGrade) {
             const biggerSize = {
-                transform: `scale(2)`,
-                flexGrow: 4
+                transform: `scale(1.1)`,
+                flexGrow: 8
             }
             return biggerSize
         }

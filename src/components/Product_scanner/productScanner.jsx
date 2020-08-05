@@ -7,7 +7,7 @@ import '../../styling/main_styling.scss';
 const codeReader = new BrowserBarcodeReader();
 
 const ProductScannerContent = () => {
-    const [barcode, setBarcode] = useState('5900242001610');
+    const [barcode, setBarcode] = useState('');
     const [inputDevicesList, setDevices] = useState([]);
 
     useEffect(() => {
@@ -37,7 +37,7 @@ const ProductScannerContent = () => {
     return (
         <div className='mainWindow'>
             <video id="video" width="300" height="200"></video>
-            {barcode}
+            {barcode === '' ? <p>Scan your product!</p> : <div>{barcode}</div>}
             <ProductInfo barcode={barcode} />
         </div>
     );

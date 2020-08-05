@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import { HashRouter, Route, Redirect, Switch } from 'react-router-dom';
 
 import Menu from '../../components/Menu';
@@ -9,11 +9,12 @@ import '../../styling/main_styling.scss'
 const AppContent = () => {
     return (
         <div className="AppContainer">
+            <p className='title'>ProductDetective</p>
             <HashRouter>
-            {/* <Menu /> */}
+            <Menu />
                 <Switch>
                     <Route path="/productscanner" component={ProductScanner} />
-                    <Route path="/" component={ProductScanner} />
+                    <Route path="/" />
                     <Route render={() => <Redirect to="/" />} />
                 </Switch>
             </HashRouter>

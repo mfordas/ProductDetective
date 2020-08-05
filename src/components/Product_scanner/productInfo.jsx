@@ -8,9 +8,9 @@ const ProductInfo = ({ barcode }) => {
 
     useEffect(() => {
         const getProductInfo = async () => {
-            const productData = await axios.get(`https://world.openfoodfacts.org/api/v0/product/${barcode}.json`);
-            console.log(productData);
-            setProductInfo({ ...productData });
+            // const productData = await axios.get(`https://world.openfoodfacts.org/api/v0/product/${barcode}.json`);
+            // console.log(productData);
+            // setProductInfo({ ...productData });
         };
 
         getProductInfo();
@@ -22,7 +22,7 @@ const ProductInfo = ({ barcode }) => {
 
         <div>
             <div>
-                {productInfo.data.status===1 ? 
+                { productInfo.data.status=== 1 ? 
                 <>
                 <div>{productInfo.data.product.product_name}</div>
                 <div className="nutriscoreBar">
@@ -32,7 +32,7 @@ const ProductInfo = ({ barcode }) => {
                     <NutriscoreGrade grade={'D'} color={'orange'} productGrade={`${productInfo.data.product.nutriscore_grade}`}/>
                     <NutriscoreGrade grade={'E'} color={'red'} productGrade={`${productInfo.data.product.nutriscore_grade}`}/>
 
-                </div></> : <></>}
+                </div></> : <><div>Product not found</div></>}
             </div>
         </div>
     )
