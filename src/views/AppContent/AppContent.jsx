@@ -2,6 +2,7 @@ import React from 'react';
 import { HashRouter, Route, Redirect, Switch } from 'react-router-dom';
 
 import Menu from '../../components/Menu';
+import MainPage from '../../components/Main_page';
 import ProductScanner from '../../components/Product_scanner';
 import '../../styling/main_styling.scss'
 
@@ -14,7 +15,7 @@ const AppContent = () => {
             <Menu />
                 <Switch>
                     <Route path="/productscanner" component={ProductScanner} />
-                    <Route path="/" />
+                    <Route path="/" component={MainPage} />
                     <Route render={() => <Redirect to="/" />} />
                 </Switch>
             </HashRouter>
