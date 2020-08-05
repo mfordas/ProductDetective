@@ -63,6 +63,10 @@ link {
     background-color: $menu-color;
     width: 100vw;
     text-align: center;
+
+    img {
+        width: 2rem;
+    }
 }
 
 .footer {
@@ -127,6 +131,18 @@ p {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.containerFooterHorizontal {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+
+    p {
+        font-size: 0.7rem;
+        margin: 0 .5rem;
+    }
+
 }
 
 
