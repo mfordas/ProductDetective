@@ -8,9 +8,8 @@ const ProductInfo = ({ barcode }) => {
 
     useEffect(() => {
         const getProductInfo = async () => {
-            // const productData = await axios.get(`https://world.openfoodfacts.org/api/v0/product/${barcode}.json`);
-            // console.log(productData);
-            // setProductInfo({ ...productData });
+            const productData = await axios.get(`https://world.openfoodfacts.org/api/v0/product/${barcode}.json`);
+            setProductInfo({ ...productData });
         };
 
         getProductInfo();
