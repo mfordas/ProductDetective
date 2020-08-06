@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f9160a014aa3a5065894223fe1b4775a",
+    "revision": "f16aeb53010c3f50a940e34e3cc21ef6",
     "url": "/ProductDetective/index.html"
   },
   {
-    "revision": "75582f9a4a167f46f0dc",
+    "revision": "65f3225a473427ecfc85",
     "url": "/ProductDetective/static/css/main.0a6bd1b2.chunk.css"
   },
   {
-    "revision": "d1984dbce943fd790fd2",
-    "url": "/ProductDetective/static/js/2.e56463f5.chunk.js"
+    "revision": "be325f29fe5f385cf695",
+    "url": "/ProductDetective/static/js/2.af8c8550.chunk.js"
   },
   {
     "revision": "24b8054ddc1445462862104fe5fc876e",
-    "url": "/ProductDetective/static/js/2.e56463f5.chunk.js.LICENSE.txt"
+    "url": "/ProductDetective/static/js/2.af8c8550.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "75582f9a4a167f46f0dc",
-    "url": "/ProductDetective/static/js/main.276aeec5.chunk.js"
+    "revision": "65f3225a473427ecfc85",
+    "url": "/ProductDetective/static/js/main.7fd17093.chunk.js"
   },
   {
     "revision": "f30d2e9a16a96692a001",
